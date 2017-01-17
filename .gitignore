@@ -63,3 +63,8 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots
 fastlane/test_output
+
+/.DS_Store
+
+/For Research/.DS_Store
+/For Research/_master/.DS_Store

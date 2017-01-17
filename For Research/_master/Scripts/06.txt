@@ -1,0 +1,42 @@
+**SLIDE 31**
+Hey, what's up everybody? This is Tammy. Welcome back to our video tutorial series, How To Make A Game Like Flappy Bird In Swift.
+
+
+**SLIDE 32**
+In the previous video, you learned how to add obstacles. At the moment, however, Felipe seems to have some magical powers and is able to fly through these obstacles. Obviously, that's not good.
+
+The first step to fixing this is by adding physics bodies to the existing sprites. 
+
+
+**SLIDE 33**
+Physics bodies define the shape of the sprite within the game world. For Flappy Felipe, you'll need three: the bird, the cacti, and the ground.
+
+These bodies are represented in light-blue. 
+
+So, how do you create these?
+
+Luckily, SpriteKit makes this relatively easy by providing a number of methods for doing so. 
+
+The ones you'll be working with are:
+
+RectangleOfSize
+Texture
+and EdgeFromPoint:toPoint
+
+
+**SLIDE 34**
+With the bodies defined, all that's left to do is detect when they collide.
+
+This is done by setting a few physics properties and by using the SKPhysicsContactDelegate Protocols.
+
+Let's head over to Xcode to see how this is done.
+
+
+----- DEMO GOES HERE -----
+
+
+**SLIDE 35**
+That’s it for this video, hope you enjoyed it. In the next video, you’ll learn about game states and state machines.
+
+Thanks for watching, and we'll see you next time!
+
