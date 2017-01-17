@@ -1,0 +1,21 @@
+### Video 8: Main Menu & Tutorial screen
+
+**SLIDE 42**
+Hey, what's up everybody? This is Tammy. Welcome back to our video tutorial series, How To Make A Game Like Flappy Bird In Swift.
+
+
+**SLIDE 43**
+In this video, you'll learn how to add a Main Menu and Tutorial Screen to Flappy Felipe. You'll do this using game states. 
+
+[TODO Tammy: Explain the theory of how this works before diving into code.]
+
+Take a look.
+
+
+----- DEMO GOES HERE -----
+
+
+**SLIDE 44**
+That’s it for this video, hope you enjoyed it. In the next video, you'll learn how to add a Game Over screen and how to save the player's score.
+
+Thanks for watching, and we'll see you next time!

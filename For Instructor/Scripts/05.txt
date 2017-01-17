@@ -1,0 +1,42 @@
+**SLIDE 26**
+Hey, what's up everybody? This is Tammy. Welcome back to our video tutorial series, How To Make A Game Like Flappy Bird In Swift.
+
+In this video, you'll learn how to add obstacles to the scene. 
+
+
+**SLIDE 27**
+(play video)
+
+
+**SLIDE 28**
+The obstacles — in this case, the cacti — come in from right to left. This periodic spawning is done using a simple, repeating SKAction.
+
+Notice that each cactus has an opening that's just large enough for Felipe to fly through. Also notice that the location of this opening varies with each obstacle.
+
+This random variation can be accomplished in more than one way.
+
+In this video, you'll learn about two of them: 
+
+The way we used to do it; and the way we do it now - thanks to GameplayKit. [TODO Tammy - I don't see any discussion about the way we "used to do it" here.]
+
+Before we look at the code, let’s take a look at how we’ll work things out. 
+
+
+**SLIDE 29**
+The obstacles use the entity-component design pattern. 
+
+There's the entity for the obstacle [TODO Tammy: What does the obstacle entity do?]. And this entity shares the same spritecomponent that the player entity uses. 
+ 
+Thanks to Entities and Components, the code is reusability and organized.
+
+OK, time to see what this looks like in Xcode.
+
+
+----- DEMO GOES HERE -----
+
+
+**SLIDE 30**
+That’s it for this video, hope you enjoyed it. In the next video, you'll learn about physics bodies and collision detection. Because, let's be honest, it's no fun if Felipe can fly through the cacti.
+
+Thanks for watching, and we'll see you next time!
+

@@ -1,0 +1,24 @@
+**SLIDE 45**
+Hey, what's up everybody? This is Tammy. Welcome back to our video tutorial series, How To Make A Game Like Flappy Bird In Swift.
+
+
+**SLIDE 46**
+In this video, you'll learn how to add a game over screen by adding a new game state. You'll also learn how to store and retrieve the player's past scores using NSUserDefaults.
+
+NSUserDefaults allows you to store data within the user’s defaults database. Valid data includes floats, doubles, integers, Booleans, and URLs. Once stored, you're able to pull these values back out of the database.
+
+While NSUserDefaults provide a quick and easy way to store and retrieve small bits of information, it’s not secure and shouldn’t be used to save your game’s currency data, or other sensitive information.
+
+A perfect use for NSUserDefaults might be to store sound or music preferences. We’re using it here for game stats, but we do so with the understanding that these can be modified from outside the app. So, keep that in mind when working on your own games.
+
+Let's head over to Xcode to see how this works.
+
+
+----- DEMO GOES HERE -----
+
+
+**SLIDE 47**
+That’s it for this video, hope you enjoyed it. In the next video, you'll learn how to give Felipe a little more life by adding animation and rotation.
+
+Thanks for watching, and we'll see you next time!
+
