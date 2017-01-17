@@ -9,6 +9,9 @@ The first step to fixing this is by adding physics bodies to the existing sprite
 
 
 **SLIDE 33**
+
+[TODO Tammy: Need a much better discussion of the physics engine here. This is the first time Sprite Kit physics has been referred to in video courses on our site. Refer to IGT1 or other free tutorials on our site where we introduce the physics engine for inspiration if necessary.]
+
 Physics bodies define the shape of the sprite within the game world. For Flappy Felipe, you'll need three: the bird, the cacti, and the ground.
 
 These bodies are represented in light-blue. 
@@ -23,6 +26,7 @@ RectangleOfSize
 Texture
 and EdgeFromPoint:toPoint
 
+[TODO Tammy - describe what each of these do]. 
 
 **SLIDE 34**
 With the bodies defined, all that's left to do is detect when they collide.

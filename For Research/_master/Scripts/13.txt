@@ -31,11 +31,11 @@ Apple TV and tvOS are big topics to tackle.
 
 This video tutorial will only cover a small portion of what's possible in tvOS, and more specifically, how to get Flappy Felipe ported.
 
-If you are looking for more information on Apple TV and tvOS, check out our video tutorial series on Beginning Native Apps On tvOS.
+If you are looking for more information on Apple TV and tvOS, check out our book the tvOS Apprentice, or the tvOS chapters in 2D Apple Games by Tutorials.
 
 
 **SLIDE 61**
-One of the two things this video will cover is dealing with the Apple TV and capturing user input, specifically the tap event.
+One of the two things this video will cover is dealing with the Apple TV and capturing user input, specifically the tap event. [TODO Tammy: Describe how this works.]
 
 
 **SLIDE 61**

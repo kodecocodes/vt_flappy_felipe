@@ -7,6 +7,8 @@ In this video, you'll learn how to add a game over screen by adding a new game s
 
 NSUserDefaults allows you to store data within the user’s defaults database. Valid data includes floats, doubles, integers, Booleans, and URLs. Once stored, you're able to pull these values back out of the database.
 
+[TODO Tammy: Describe drawbacks/limitations of NSUserDefaults, and why it's OK in this case.]
+
 Let's head over to Xcode to see how this works.
 
 

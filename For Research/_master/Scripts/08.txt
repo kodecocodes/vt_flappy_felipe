@@ -8,6 +8,8 @@ In this video, you'll learn how to keep score.
 (PLAY VIDEO)
 The idea here is that every time Felipe passes through a cactus opening, he'll score a point. While there are many ways to keep score, Flappy Felipe uses a simple model.
 
+[TODO Tammy: Explain the theory of how it works before diving into code.]
+
 Let's jump into Xcode and see how it’s done.
 
 

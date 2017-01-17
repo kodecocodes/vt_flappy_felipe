@@ -13,6 +13,8 @@ Using GameplayKit you can create a state machine to manage the different game st
 
 In order to create the different game states, you’ll use the GKState class.
 
+[TODO Tammy: This is not a very good explanation of state machines. Please expand majorly. See IGT1 (old version) for inspiration.]
+
 Let’s take a look at this in code.
 
 

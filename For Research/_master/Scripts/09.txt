@@ -7,6 +7,8 @@ Hey, what's up everybody? This is Tammy. Welcome back to our video tutorial seri
 **SLIDE 43**
 In this video, you'll learn how to add a Main Menu and Tutorial Screen to Flappy Felipe. You'll do this using game states. 
 
+[TODO Tammy: Explain the theory of how this works before diving into code.]
+
 Take a look.
 
 

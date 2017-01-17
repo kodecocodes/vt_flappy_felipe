@@ -3,10 +3,12 @@ Hey, what's up everybody? This is Tammy. Welcome you to our video tutorial serie
 
 
 **SLIDE 2**
-In this series, you’ll learn how to make a game named Flappy Felipe. If you don't know the folklore behind Flappy Felipe, I've been told that it goes something like this: 
-
+In this course, you’ll learn how to make a game named Flappy Felipe. Let's take a look at what you'll build in this course.
 
 **SLIDE 3**
+
+If you don't know the folklore behind Flappy Felipe, I've been told that it goes something like this: 
+
 Felipe Laso Marsetti, a Ray Wenderlich Founding Tutorial Team Member, had a dream about becoming a cartoon bird. 
 
 
@@ -17,35 +19,28 @@ One day, he mentioned his dream to Ray... and that gave Ray an idea! Why not mak
 **SLIDE 5**
 So Ray contacted Mike Berg over at weheartgames.com and asked him to create some artwork. And not too long after that, Flappy Felipe was made available on the App Store! Huzzah!
 
+Making this game is a great way to practice your SpriteKit skills and have a cool and complete game at the end to show off to your friends.
 
 **SLIDE 6**
 So now that you know what you’re making, it's time to go over some of the things you need to know in order to work through this series. 
 
-Firstly, you should know how to program in Swift. If you need a little help with the Swift language, check out some of our Swift Video Tutorials or take a look at our iOS Apprentice book.
+First, you should know the basics of programming in Swift. If you need a little help with the Swift language, check out our Beginning and Intermediate Swift courses first. Alternatively, you can grab a copy of our book, the Swift Apprentice.
 
-You should also understand the basics of SpriteKit, Apple's 2D Game Engine framework. 
-
-If you're new to SpriteKit, we have free tutorials available on our site to help get you started. After you look through those, come back here, and we can get started making Flappy Felipe.
-
-Alternatively, you can grab a copy of our book, 2D Apple Games by Tutorials.
+You should also understand the basics of SpriteKit, Apple's 2D Game Engine framework. If you're new to SpriteKit, check out our Beginning SpriteKit course. Alternatively, you can grab a copy of our book, 2D Apple Games by Tutorials.
 
 With that out of the way, it's time to review the specifics of what this series will cover.
-
 
 **SLIDE 7**
 We’ll start by creating the project and adding the background. 
 
 Then, we’ll move on to learning about GameplayKit. Specifically, you'll see how to use Entities and Components, Randomization, and State Machines.
 
-Finally, you'll discover how to add juice to your game — and more importantly — how to get it working on the Apple TV.
+Finally, you'll discover how to add "juice" to your game, which is a fancy way of saying adding polish and pizazz — and more importantly — how to get it working on the Apple TV.
 
 As you can see, a lot is covered in this series. And by the end, you'll have enough knowledge to build your own Flappy Felipe-type game.
 
-**SLIDE 8**
-Before we wrap-up, I'd like to give a special thanks to the two tech editors on this series, Richard Critz and James Taylor. Thanks, guys, for making this series epic.
-
 **SLIDE 9**
-That’s it for this video, hope you enjoyed it. In the next video, you’ll learn how to add the background.
+That’s it for this introduction. In the next video, you’ll get started by adding the background to the game.
 
 Thanks for watching, and we'll see you next time!
 

@@ -3,6 +3,7 @@ Hey, what's up everybody? This is Tammy. Welcome back to our video tutorial seri
 
 In this video, it's all about the juice and adding the finishing touches. 
 
+[TODO Tammy: Define juice, explain the theory of what you'll be doing better, why these little details matter. Again refere to Juice chapters of IGT for inspiration.]
 
 **SLIDE 53**
 Coming up, you'll learn how to add social media sharing to Flappy Felipe; how to get the app icon and launch image working, and how to add juice to this like like flashing the screen and shaking it.

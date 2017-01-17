@@ -9,7 +9,7 @@ Animating your sprites may seem complicated, but it's not too bad once you under
 
 In order to get Felipe's wings to flap, you'll be using a series of four images. These four images are identical, expect for the position of his wings. As you cycle through each image, it beings to look like he's flapping his wings.
 
-Luckily, for us developers, SpriteKit includes an easy way to animate these images using SKTextures. 
+Luckily, for us developers, SpriteKit includes an easy way to animate these images using SKTextures.  [TODO Tammy: Describe how this works.]
 
 
 **SLIDE 50**
@@ -17,7 +17,7 @@ In addition to animating the Felipe Wing Flap, as its known throughout the land,
 
 When the player taps to make the wings flap, you'll rotate the bird so he's pointing upward. When the player stops tapping, Felipe stops flapping, and he rotates down.
 
-But first, you'll need to figure out how much to rotate Felipe, per second. You can do this using angular velocity, along with the modifier — the plus or minus 1000. Once you have that, you can set the zPosition on the sprite and get him pointing in the right direction.
+But first, you'll need to figure out how much to rotate Felipe, per second. You can do this using angular velocity, along with the modifier — the plus or minus 1000. Once you have that, you can set the zPosition on the sprite and get him pointing in the right direction. [TODO Tammy: Explain this better. What if someone doesn't know what angular velocity is?]
 
 Let's see this in action.
 

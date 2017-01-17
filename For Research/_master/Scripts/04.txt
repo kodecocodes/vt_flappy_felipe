@@ -19,6 +19,9 @@ While this series doesn't focus on GameplayKit, it does, however, use a few of t
 
 
 **SLIDE 23**
+
+[TODO Tammy - please majorly expand this section. The goal is for students to understand what is going on here without having to refer to other tutorials.]
+
 The first being Entities and components.
 
 Using the Entity-Component design pattern helps to keep code more organized. 
