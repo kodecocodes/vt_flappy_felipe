@@ -1,40 +1,38 @@
+**SLIDE 9**
+Hey, what's up everybody? This is Tammy. Welcome back to our course on, How To Make A Game Like Flappy Bird In Swift.
+
+
 **SLIDE 10**
-Hey, what's up everybody? This is Tammy. Welcome back to our video tutorial series, How To Make A Game Like Flappy Bird In Swift.
-
-
-**SLIDE 11**
 In this video tutorial, you'll be creating the project and adding the background. By the end of this video, you're game will look like this.
 
 
-**SLIDE 12**
-Flappy Felipe, at least for now, is an iPhone-only game. Later you’ll see how to get it working on the Apple TV, but for now, let’s concentrate on the iPhone.
+**SLIDE 11**
+Flappy Felipe, at least for now, is an iPhone-only game. You’ll see how to get it working on the Apple TV later, but for now, let’s concentrate on the iPhone.
 
-And by that, I mean ALL THE iPHONES, and ALL THE SCREEN SIZES.
+And by that, I mean ALL THE iPHONES — and ALL THE SCREEN SIZES too.
+
+
+**SLIDE 12**
+Because each iPhone has a different SCREEN SIZE, you'll need a way of setting the SCENE SIZE accordingly. 
+
+While there are a number of ways to do this, for Flappy Felipe, we’ll be using a uniform width of 320 and a dynamic height.
+
+The dynamic height is based on the aspect ratio, and the aspect ratio is used to set the height of the scene. 
+
+Once the scene size is set, you can add the background.
 
 
 **SLIDE 13**
-Because each iPhone has a different SCREEN size, you'll need a way of setting the SCENE size accordingly. 
-
-While there are a number of different ways to do this, for Flappy Felipe, we’ll be using a uniform width of 320 and a dynamic height.
-
-The dynamic height is based on the aspect ratio. 
-
-And the aspect ratio is used to set the height of the scene. 
-
-With the scene size set, you can start adding the background.
-
-
-**SLIDE 14**
 The background consists of two images: the top, which is named background.png; and the bottom, which is named ground.png. 
 
 
-Because the SCENE size is based on the SCREEN size, elements you place in the scene may move depending on the device that's running the game.
+Because the SCENE SIZE is based on the SCREEN SIZE, elements you place in the scene may move depending on the device that's running the game.
 
 That means you need a way to keep track of the important areas within the game.
 
 In this case, there are two: the playableHeight, which is essentially the fly zone; and the playableStart, which is where the ground begins. 
 
-Using two variables - playableHeight and playableStart - you'll be able to work out the game logic and keep it fair across the differently sized devices.
+Using these two variables - playableHeight and playableStart - you'll be able to handle the game logic and keep things fair across the differently sized devices.
 
 Let’s see how this works out in code.
 
@@ -42,8 +40,8 @@ Let’s see how this works out in code.
 ----- DEMO GOES HERE -----
 
 
-**SLIDE 15**
-That’s it for this video, hope you enjoyed it. In the next video, you’ll learn how to move the background.
+**SLIDE 14**
+That’s it for this video, where you were learned how to add the background. In the next video, you’ll learn how to move the background.
 
 Thanks for watching, and we'll see you next time!
 

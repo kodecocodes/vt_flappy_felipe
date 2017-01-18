@@ -1,45 +1,41 @@
-**SLIDE 20**
-Hey, what's up everybody? This is Tammy. Welcome back to our video tutorial series, How To Make A Game Like Flappy Bird In Swift.
+**SLIDE 19**
+Hey, what's up everybody? This is Tammy. Welcome back to our course on, How To Make A Game Like Flappy Bird In Swift.
 
 In this video, you'll finally get to add the star of the show... Felipe! 
 
 Take a look.
 
 
-**SLIDE 21**
+**SLIDE 20**
 (PLAY VIDEO)
 
 
-**SLIDE 22**
+**SLIDE 21**
 Pretty cool, huh? Want to know what's even cooler? GameplayKit, which happens to be one of my favorite frameworks.
 
-GameplayKit is a collection of tools, created by Apple, that exist to assist us with building games in iOS, macOS, tvOS and even watchOS. 
+GameplayKit is a collection of tools, created by Apple, that help us developer build games in iOS, macOS, tvOS and even watchOS. 
 
-While this series doesn't focus on GameplayKit, it does, however, use a few of these technologies.
+While this course doesn't focus on GameplayKit, it does, use a few of these technologies. The first being Entities and components, which helps keep code more organized. 
+
+
+**SLIDE 22**
+
+There are two parts to the entity-component system. They are:
+
+Entities, which essentially represents the objects within your game. And components, which represent some aspect of an entity - like its appearance or behavior.
+
+In Flappy Felipe, we’ll use a entity named PlayerEntity to represent the bird, which is a custom subclass of GKEntity.
+
+We’ll also create two components.
+
+The first is a visual component, which handles the onscreen visual representation of the player. The classname for this component is SpriteComponent.
+
+The second component is one responsible for handling the player's movement. The classname for this one is MovementComponent.
+
+Both of these components are subclasses of the GKComponent class, and because they are components can be reused later, with other entities.
 
 
 **SLIDE 23**
-
-[TODO Tammy - please majorly expand this section. The goal is for students to understand what is going on here without having to refer to other tutorials.]
-
-The first being Entities and components.
-
-Using the Entity-Component design pattern helps to keep code more organized. 
-
-In Flappy Felipe, we’ll use a entity named PlayerEntity to represent the bird. This entity is a custom subclass of GKEntity.
-
-We’ll also create two components. 
-
-The first is a visual component which handles the onscreen visual representation of the player. In this case, the bird. 
-
-The classname for this component is SpriteComponent.
-
-The second component is the one responsible for handling the player's movement. The classname for this one is MovementComponent.
-
-Both of these components are subclasses of the GKComponent class.
-
-
-**SLIDE 24**
 For more information about GameplayKit, please check out our GameplayKit Tutorials on the site.
 
 OK! It's time to jump into Xcode and get Felipe onto the stage, or more accurately - the scene!
@@ -49,7 +45,7 @@ OK! It's time to jump into Xcode and get Felipe onto the stage, or more accurate
 
 
 **SLIDE 25**
-That’s it for this video, hope you enjoyed it. In the next video, you'll continue to use GameplayKit, and you'll also discover how to add obstacles to the scene.
+That’s it for this video, where you were learned about GameplayKit and entities and components. In the next video, you'll continue to use GameplayKit, and you'll also discover how to add obstacles to the scene.
 
 Thanks for watching, and we'll see you next time!
 

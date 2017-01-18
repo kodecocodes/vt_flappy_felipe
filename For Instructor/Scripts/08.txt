@@ -1,14 +1,14 @@
-**SLIDE 39**
-Hey, what's up everybody? This is Tammy. Welcome back to our video tutorial series, How To Make A Game Like Flappy Bird In Swift.
+**SLIDE 41**
+Hey, what's up everybody? This is Tammy. Welcome back to our video tutorial Welcome back to our course on, How To Make A Game Like Flappy Bird In Swift., How To Make A Game Like Flappy Bird In Swift.
 
 In this video, you'll learn how to keep score. 
 
 
-**SLIDE 40**
+**SLIDE 42**
 (PLAY VIDEO)
-The idea here is that every time Felipe passes through a cactus opening, he'll score a point. While there are many ways to keep score, Flappy Felipe uses a simple model.
+The idea here is that every time Felipe passes through a cactus opening, he'll score a point.
 
-[TODO Tammy: Explain the theory of how it works before diving into code.]
+While there are many ways to keep score, Flappy Felipe uses a simple model, which uses the enumerateChildNodes(withName:using:) method to loop through the names of the nodes to see when Felipe passes through each obstacle.
 
 Let's jump into Xcode and see how it’s done.
 
@@ -16,7 +16,7 @@ Let's jump into Xcode and see how it’s done.
 ----- DEMO GOES HERE -----
 
 
-**SLIDE 41**
-That’s it for this video, hope you enjoyed it. In the next video, you'll learn more about Game States as you build out your main menu and tutorial screens.
+**SLIDE 43**
+That’s it for this video, where you were learned how to keep score. In the next video, you'll learn more about Game States as you build out your main menu and tutorial screens.
 
 Thanks for watching, and we'll see you next time!

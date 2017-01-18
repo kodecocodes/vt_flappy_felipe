@@ -1,12 +1,13 @@
-**SLIDE 16**
-Hey, what's up everybody? This is Tammy. Welcome back to our video tutorial series, How To Make A Game Like Flappy Bird In Swift.
+**SLIDE 15**
+Hey, what's up everybody? This is Tammy. Welcome back to our course on, How To Make A Game Like Flappy Bird In Swift.
 
 In this video, you'll learn how to move the ground from right to left. This movement makes it look like Felipe is flying through the air. Of course, you haven't added Felipe yet, but don't worry about that now.
 
-**SLIDE 17**
+**SLIDE 16**
 By the end of this video, your game will look like this.
+(PLAY VIDEO)
 
-**SLIDE 18**
+**SLIDE 17**
 That looks pretty good, right?
 
 Believe it or not, accomplishing this type of effect is easier than you might realize.
@@ -23,7 +24,7 @@ Let’s take a look at how this works in code.
 ----- DEMO GOES HERE -----
 
 
-**SLIDE 19**
-That’s it for this video, hope you enjoyed it. In the next video, you’ll learn how to add Felipe.
+**SLIDE 18**
+That’s it for this video, where you were learned how to move the background. In the next video, you’ll learn how to add Felipe to the scene.
 
 Thanks for watching, and we'll see you next time!

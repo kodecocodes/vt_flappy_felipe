@@ -28,6 +28,7 @@ enum Layer: CGFloat {
   case obstacle
   case foreground
   case player
+  case sombrero
   case ui
   case flash
 }
@@ -69,7 +70,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
   let bottomObstacleMinFraction: CGFloat = 0.1
   let bottomObstacleMaxFraction: CGFloat = 0.6
   
-  let gapMultiplier: CGFloat = 3.5
+  let gapMultiplier: CGFloat = 4.5 // the higher the number, the easier the game
   
   let firstSpawnDelay: TimeInterval = 1.75
   let everySpawnDelay: TimeInterval = 1.5

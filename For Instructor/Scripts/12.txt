@@ -1,5 +1,5 @@
 **SLIDE 52**
-Hey, what's up everybody? This is Tammy. Welcome back to our video tutorial series, How To Make A Game Like Flappy Bird In Swift.
+Hey, what's up everybody? This is Tammy. Welcome back to our course on, How To Make A Game Like Flappy Bird In Swift.
 
 In this video, it's all about the finishing touches, and of course, the juice!
 
@@ -15,6 +15,6 @@ If you're ready start, let's just jump right in.
 
 
 **SLIDE 54**
-That’s it for this video, hope you enjoyed it. In the next video, you’ll learn how to  get Flappy Felipe working on the Apple TV.
+That’s it for this video, where you were learned how to add the finishing touches. In the next video, you’ll learn how to  get Flappy Felipe working on the Apple TV.
 
 Thanks for watching, and we'll see you next time!

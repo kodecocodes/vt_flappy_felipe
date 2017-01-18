@@ -44,6 +44,7 @@ class Player: GKEntity {
     addComponent(spriteComponent)
     
     sombrero.position = CGPoint(x: 31 - sombrero.size.width/2, y: 29 - sombrero.size.height/2)
+    sombrero.zPosition = 1
     spriteComponent.node.addChild(sombrero)
     
     movementComponent = MovementComponent(entity: self)

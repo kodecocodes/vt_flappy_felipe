@@ -1,47 +1,48 @@
 **SLIDE 1**
-Hey, what's up everybody? This is Tammy. Welcome you to our video tutorial series, How To Make A Game Like Flappy Bird In Swift.
+Hey, what's up everybody? This is Tammy. Welcome to our course on, How To Make A Game Like Flappy Bird In Swift.
 
 
 **SLIDE 2**
-In this course, you’ll learn how to make a game named Flappy Felipe. Let's take a look at what you'll build in this course.
+In this course, you’ll learn how to make a game named Flappy Felipe. Take a look.
+(PLAY VIDEO)
 
 **SLIDE 3**
-
-If you don't know the folklore behind Flappy Felipe, I've been told that it goes something like this: 
+If you don't know the folklore behind Flappy Felipe, it goes something like this: 
 
 Felipe Laso Marsetti, a Ray Wenderlich Founding Tutorial Team Member, had a dream about becoming a cartoon bird. 
 
 
 **SLIDE 4**
-One day, he mentioned his dream to Ray... and that gave Ray an idea! Why not make a game like Flappy Bird, starring Felipe.
+One day, he mentioned his dream to Ray, which gave him an idea! Why not make a game like Flappy Bird, starring Felipe.
 
 
 **SLIDE 5**
-So Ray contacted Mike Berg over at weheartgames.com and asked him to create some artwork. And not too long after that, Flappy Felipe was made available on the App Store! Huzzah!
+So Ray contacted Mike Berg over at weheartgames.com and asked him to create some artwork. Not too long after that, Flappy Felipe was available on the App Store! Huzzah!
 
 Making this game is a great way to practice your SpriteKit skills and have a cool and complete game at the end to show off to your friends.
 
 **SLIDE 6**
-So now that you know what you’re making, it's time to go over some of the things you need to know in order to work through this series. 
+So now that you know what you’re making, it's time to go over some of the things you need to know in order to work through this course. 
 
-First, you should know the basics of programming in Swift. If you need a little help with the Swift language, check out our Beginning and Intermediate Swift courses first. Alternatively, you can grab a copy of our book, the Swift Apprentice.
+For starters, you should know how to program in Swift. If you need a help with that, you can check out our Swift courses first. Alternatively, you can grab a copy of our book, the Swift Apprentice.
 
-You should also understand the basics of SpriteKit, Apple's 2D Game Engine framework. If you're new to SpriteKit, check out our Beginning SpriteKit course. Alternatively, you can grab a copy of our book, 2D Apple Games by Tutorials. And read our free tutorials on the site.
+You should also understand the basics of SpriteKit, Apple's 2D Game Engine framework. If you're new to SpriteKit, we have a Beginning SpriteKit course available that you can watch. Alternatively, you can grab a copy of our book, 2D Apple Games by Tutorials. Beyond that, you an read our free tutorials on the site.
 
-With that out of the way, it's time to review the specifics of what this series will cover.
+With that out of the way, it's time to review the specifics of what this course will cover.
 
 **SLIDE 7**
 We’ll start by creating the project and adding the background. 
 
-Then, we’ll move on to learning about GameplayKit. Specifically, you'll see how to use Entities and Components, Randomization, and State Machines.
+Then, we’ll move on to learning some of the features of GameplayKit. Specifically, Entities and Components, Randomization, and State Machines.
 
-Finally, you'll discover how to add "juice" to your game, which is a fancy way of saying adding polish and pizazz — and more importantly — how to get it working on the Apple TV.
+Finally, you'll discover how to add "juice" to your game, which is a fancy way of saying “adding polish and pizazz”. We’ll conclude the course by learning how to get Flappy Felipe working on the Apple TV.
 
-As you can see, a lot is covered in this series. And by the end, you'll have enough knowledge to build your own Flappy Felipe-type game.
+As you can see, we cover a lot in this course. By the end, you'll have enough knowledge to build your own Flappy Felipe-type game.
 
-**SLIDE 9**
-That’s it for this introduction. In the next video, you’ll get started by adding the background to the game.
+**SLIDE 8**
+That’s it for this video, where you were introduced to the course. In the next video, you’ll learn how to add the background.
 
-Thanks for watching, and we'll see you next time!
+I hope you enjoyed this video. Thanks for watching, and we'll see you next time!
+
 
 

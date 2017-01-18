@@ -1,9 +1,9 @@
 **SLIDE 63**
-Hey, what's up everybody? This is Tammy. I hope you enjoyed our video tutorial series, How To Make A Game Like Flappy Bird In Swift.
+Hey, what's up everybody? This is Tammy. I hope you enjoyed our course on, How To Make A Game Like Flappy Bird In Swift.
 
 
 **SLIDE 64**
-In this series you started by creating the project and adding the background. 
+In this course, you started by creating the project and adding the background. 
 
 Then, you went on to learning a bit about GameplayKit. Specifically, you saw how to use Entities and Components, Randomization, and State Machines.
 
@@ -16,6 +16,6 @@ But if you’re still looking for more SpriteKit-based learning, be sure to chec
 
 
 **SLIDE 66**
-Well, folks... although this series has come to an end, don't let that stop you. Take the skills you picked up here and make your own version of Flappy Felipe. Get it on the App store and let us know about it. We’d love to see what you’re doing.
+Well, folks... although this course has come to an end, don't let that stop you. Take the skills you picked up here and make your own version of Flappy Felipe. Get it on the App store and let us know about it. We’d love to see what you’re doing.
 
-That’s it for this video and this series. Thanks for watching, and we’ll see you next time.
+That’s it for this video and this course. Thanks for watching, and we’ll see you next time.

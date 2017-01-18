@@ -1,7 +1,7 @@
 ### Video 12: Apple TV and tvOS
 
 **SLIDE 55**
-Hey, what's up everybody? This is Tammy. Welcome back to our video tutorial series, How To Make A Game Like Flappy Bird In Swift.
+Hey, what's up everybody? This is Tammy. Welcome back to our course on, How To Make A Game Like Flappy Bird In Swift.
 
 In this video tutorial, you'll learn how to get Flappy Felipe up and running — and looking good — on the Apple TV. 
 
@@ -48,6 +48,6 @@ OK! Let's begin.
 ----- DEMO GOES HERE -----
 
 **SLIDE 61**
-That’s it for this video, hope you enjoyed it. In the next video, we’ll wrap-up the series.
+That’s it for this video, where you were learned how to get Flappy Felipe working on the Apple TV. In the next video, we'll wrap up the course.
 
 Thanks for watching, and we'll see you next time!

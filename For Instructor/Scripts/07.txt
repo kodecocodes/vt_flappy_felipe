@@ -1,11 +1,17 @@
-**SLIDE 36**
-Hey, what's up everybody? This is Tammy. Welcome back to our video tutorial series, How To Make A Game Like Flappy Bird In Swift.
+**SLIDE 37**
+Hey, what's up everybody? This is Tammy. Welcome back to our course on, How To Make A Game Like Flappy Bird In Swift.
 
 In this video, you'll learn about game states and how to use GameplayKit to help manage them.
 
+**SLIDE 38**
+At the end of this video, your game will look like this.
+(Play Video)
 
-**SLIDE 37**
-With GameplayKit, you're able to create and manage the different game states within your game.
+
+**SLIDE 39**
+In games, you might have a paused-state, a game-over state and a playing state. Each of these states may require different things to happen; different animation, different music, different interactions, etc. 
+
+With GameplayKit, you're able to create and manage the different game states within your game. 
 
 The best part? You can do this without having to nest endless if statements, which is what you had to do in the past.
 
@@ -13,7 +19,6 @@ Using GameplayKit you can create a state machine to manage the different game st
 
 In order to create the different game states, you’ll use the GKState class.
 
-[TODO Tammy: This is not a very good explanation of state machines. Please expand majorly. See IGT1 (old version) for inspiration.]
 
 Let’s take a look at this in code.
 
@@ -21,8 +26,9 @@ Let’s take a look at this in code.
 ----- DEMO GOES HERE -----
 
 
-**SLIDE 38**
-That’s it for this video, hope you enjoyed it. In the next video, you’ll learn how to keep score.
+**SLIDE 40**
+That’s it for this video, where you were learned about game states and state machines. In the next video, you’ll learn how to keep score.
 
 Thanks for watching, and we'll see you next time!
+
 
