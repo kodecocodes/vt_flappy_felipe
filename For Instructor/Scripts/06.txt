@@ -1,12 +1,17 @@
 **SLIDE 31**
 Hey, what's up everybody? This is Tammy. Welcome back to our course on, How To Make A Game Like Flappy Bird In Swift.
 
+In this part of the course, you’ll learn how to add collision detection, and how to work with physics bodies.
+
+
 **SLIDE 32**
-In this video, you’ll learn how to add collision detection.
-(play video) [TODO: record video, update slide]
+By the end of this video, your game will look like this.
+(PLAY VIDEO)
+[TODO: record video, update slide]
+
 
 **SLIDE 33**
-In the previous video, you learned how to add obstacles. At the moment, however, Felipe seems to have some magical powers and is able to fly through these obstacles. Obviously, that's not good.
+In the previous video, you learned how to add obstacles. At the moment, however, Felipe seems to have some magical powers and is able to fly through these obstacles. Obviously, that's not good game play.
 
 The first step to fixing this is by adding physics bodies to the existing sprites.
 
@@ -14,9 +19,9 @@ The first step to fixing this is by adding physics bodies to the existing sprite
 **SLIDE 34**
 SpriteKit has a built-in physics engine, which helps simulate realistic movement, as well as help to handle collision detection. But in order for collision detection to work, you must first set the physics bodies for your sprites.
 
-Physics bodies define the shape of the sprite within the game world. For Flappy Felipe, you'll need three: the bird, the cacti, and the ground.
+Physics bodies define the shape of the sprite within the game world. For Flappy Felipe, you'll need three bodies: the bird, the cacti, and the ground.
 
-These bodies are represented in light-blue. 
+These bodies are represented, here, in light-blue. 
 
 So, how do you create these?
 
@@ -25,24 +30,27 @@ Luckily, SpriteKit makes this relatively easy by providing a number of methods f
 The ones you'll be working with are:
 
 RectangleOfSize, which allows us to set the size of the bodies based on the size we pass into the function.
+
 Texture, which uses a texture to set the size.
+
 and EdgeFromPoint:toPoint, which creates an edge between two points.
 
-You’ll see each of these, and how they work, in the demo.
+You’ll discover more about these as we work through the demo.
+
 
 **SLIDE 35**
-With the bodies defined, all that's left to do is detect when they collide.
+Once the bodies are defined, all that's left to do is detect when they collide.
 
-This is done by setting a few physics properties and by using the SKPhysicsContactDelegate Protocols.
+This is done by setting a few key physics properties, and by using the SKPhysicsContactDelegate Protocols.
 
-Let's head over to Xcode to see how this is done.
+Let's head over to Xcode to see how this all works.
 
 
 ----- DEMO GOES HERE -----
 
 
 **SLIDE 36**
-That’s it for this video, where you were learned how to add physics bodies to your sprites. In the next video, you’ll learn about game states and state machines.
+Well, that’s it for this video, where you were learned how to add physics bodies to your sprites, and how to detect collisions. In the next video, you’ll learn about game states and state machines.
 
 
 Thanks for watching, and we'll see you next time!

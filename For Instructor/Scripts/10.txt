@@ -1,24 +1,29 @@
-**SLIDE 45**
+**SLIDE 49**
 Hey, what's up everybody? This is Tammy. Welcome back to our course on, How To Make A Game Like Flappy Bird In Swift.
 
+In this part of the course, you'll learn how to add a game over screen by adding a new game state. You'll also learn how to store and retrieve the player's past scores using NSUserDefaults.
 
-**SLIDE 46**
-In this video, you'll learn how to add a game over screen by adding a new game state. You'll also learn how to store and retrieve the player's past scores using NSUserDefaults.
+**SLIDE 50**
+By the end of this video, your game will look like this.
+(PLAY VIDEO)
+[TODO: record video, update slide]
 
-NSUserDefaults allows you to store data within the user’s defaults database. Valid data includes floats, doubles, integers, Booleans, and URLs. Once stored, you're able to pull these values back out of the database.
+
+**SLIDE 51**
+NSUserDefaults allow you to store data within the user’s defaults database. Valid data includes floats, doubles, integers, Booleans, and URLs. Once stored, you're able to pull these values back out of the database.
 
 While NSUserDefaults provide a quick and easy way to store and retrieve small bits of information, it’s not secure and shouldn’t be used to save your game’s currency data, or other sensitive information.
 
 A perfect use for NSUserDefaults might be to store sound or music preferences. We’re using it here for game stats, but we do so with the understanding that these can be modified from outside the app. So, keep that in mind when working on your own games.
 
-Let's head over to Xcode to see how this works.
+Let's head over to Xcode to see how this works in more detail.
 
 
 ----- DEMO GOES HERE -----
 
 
-**SLIDE 47**
-That’s it for this video, where you were learned how to add the game ver scene and how to save the player’s score. In the next video, you'll learn how to give Felipe a little more life by adding animation and rotation.
+**SLIDE 52**
+Well, that’s it for this video, where you were learned how to add the game over scene and how to save the player’s score. In the next video, you'll learn how to give Felipe a little more life by adding animation and rotation.
 
 Thanks for watching, and we'll see you next time!
 

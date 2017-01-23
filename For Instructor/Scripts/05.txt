@@ -1,33 +1,34 @@
 **SLIDE 25**
 Hey, what's up everybody? This is Tammy. Welcome back to our course, How To Make A Game Like Flappy Bird In Swift.
 
-In this video, you'll learn how to add obstacles to the scene. 
+In this part of the course, you'll learn how to add obstacles to the scene. 
 
 
 **SLIDE 26**
-(play video)
+By the end of this video, your game will look like this.
+(PLAY VIDEO)
+
+The obstacles — in this case, the cacti — come in from right to left. This periodic spawning is done using a simple, repeating SKAction.
 
 
 **SLIDE 27**
-The obstacles — in this case, the cacti — come in from right to left. This periodic spawning is done using a simple, repeating SKAction.
+If you look at the screen shot behind me, you'll notice the cactus has an opening that's just large enough for Felipe to fly through. You'll also notice that the location of the opening varies with each obstacle.
 
-Notice that each cactus has an opening that's just large enough for Felipe to fly through. Also notice that the location of this opening varies with each obstacle.
-
-This random variation can be accomplished in more than one way.
-
-In this video, you'll learn about two of them: 
-
-The way we used to do it - using arc4random; and the way we do it now - using GameplayKit’s randomization classes.
+This random variation can be accomplished using GameplayKit’s randomization classes.
 
 
 **SLIDE 28**
-Using GameplayKit’s randomization classes, which include GKARC4RandomSource and GKRandomDistribution, we’re able to spawn obstacles at random intervals, and specify exactly how “random” things will be.
+The randomization classes that we're using include GKARC4RandomSource and GKRandomDistribution.
 
-GKARC4RandomSource uses the ARC4 algorithm, which works for most games. GKRandomDistribution produces a uniform distribution across a specific range.
+In Flappy Felipe we use these to spawn obstacles at random intervals, and to specify exactly how “random” things will be.
+
+In this case, GKARC4RandomSource uses the ARC4 algorithm, which works for most games. And GKRandomDistribution produces a uniform distribution across a specific range, which is pretty consistent with a dice roll: each number has about the same probability of coming up as any other number.
 
 
 **SLIDE 29**
-We’re also going to utilize more of GameplayKit’s entity-component architecture. In this case, the obstacles will be an entity and it will share the same SpriteComponent the player entity uses. This allows us to reuse code and keep it and organized.
+Also, just like before, we're going to use the entity-component architecture.
+
+In this case, obstacles will be entities and will share the same SpriteComponent the player entity uses. This allows us to reuse code and keep it and organized.
 
 OK, time to see what this looks like in Xcode.
 
@@ -36,7 +37,7 @@ OK, time to see what this looks like in Xcode.
 
 
 **SLIDE 30**
-That’s it for this video, where you were learned how to add obstacles. In the next video, you'll learn about physics bodies and collision detection. Because, let's be honest, i
+Well, that’s it for this video, where you were learned how to add obstacles. In the next video, you'll learn about physics bodies and collision detection.
 
 Thanks for watching, and we'll see you next time!
 

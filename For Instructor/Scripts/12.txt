@@ -1,12 +1,21 @@
-**SLIDE 52**
+**SLIDE 58**
 Hey, what's up everybody? This is Tammy. Welcome back to our course on, How To Make A Game Like Flappy Bird In Swift.
 
-In this video, it's all about the finishing touches, and of course, the juice!
+In this part of the course, you'll learn how to add the finishing touches!
 
-**SLIDE 53**
-The finishing touches include adding social media sharing, and adding the app icons and launch image.
+
+**SLIDE 59**
+By the end of this video, your game will look like this.
+(PLAY VIDEO)
+[TODO: record video, update slide]
+
+
+**SLIDE 60**
+The finishing touches include social media sharing and the app icons and launch image.
  
-And the juice? Well, the juice refers to the subtle “extras” like sound effects, sprite animations and screen effects like flashing and shaking: two things we’ll be adding to Flappy Felipe.
+Finishing touches also includes juice. 
+
+Juice refers to subtle “extras” like sound effects, sprite animations, and screen effects, like flashing and shaking.
 
 If you're ready start, let's just jump right in.
 
@@ -14,7 +23,7 @@ If you're ready start, let's just jump right in.
 ----- DEMO GOES HERE -----
 
 
-**SLIDE 54**
-That’s it for this video, where you were learned how to add the finishing touches. In the next video, you’ll learn how to  get Flappy Felipe working on the Apple TV.
+**SLIDE 61**
+Well, that’s it for this video, where you were learned how to add the finishing touches. In the next video, you’ll learn how to  get Flappy Felipe working on the Apple TV.
 
 Thanks for watching, and we'll see you next time!

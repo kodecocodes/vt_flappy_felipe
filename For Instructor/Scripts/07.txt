@@ -1,33 +1,35 @@
 **SLIDE 37**
 Hey, what's up everybody? This is Tammy. Welcome back to our course on, How To Make A Game Like Flappy Bird In Swift.
 
-In this video, you'll learn about game states and how to use GameplayKit to help manage them.
+In this part of the course, you'll learn about game states and how to use GameplayKit to help manage them.
+
 
 **SLIDE 38**
-At the end of this video, your game will look like this.
-(Play Video)
+By the end of this video, your game will look like this.
+(PLAY VIDEO)
+[TODO: record video, update slide]
 
 
 **SLIDE 39**
-In games, you might have a paused-state, a game-over state and a playing state. Each of these states may require different things to happen; different animation, different music, different interactions, etc. 
+A lot of games have a paused state, a game over state and a playing state. And each of these states usually require different things to happen or independent game logic to run; whether it be different animations, different music, or different player interactions.
 
-With GameplayKit, you're able to create and manage the different game states within your game. 
+With GameplayKit, you're able to easily create and manage the different game states within your game. 
 
 The best part? You can do this without having to nest endless if statements, which is what you had to do in the past.
 
-Using GameplayKit you can create a state machine to manage the different game states. The class responsible for this is GKStateMachine. 
+It works by creating a state machine, which manages and handles the different game states. The class responsible for this is GKStateMachine. 
 
-In order to create the different game states, you’ll use the GKState class.
+And the way that you create the different game states is by using the GKState class. Then, when you need to change states, you simply ask the state machine to switch.
 
 
-Let’s take a look at this in code.
+Let’s take a closer look at this in code.
 
 
 ----- DEMO GOES HERE -----
 
 
 **SLIDE 40**
-That’s it for this video, where you were learned about game states and state machines. In the next video, you’ll learn how to keep score.
+Well, that’s it for this video, where you were learned about game states and state machines. In the next video, you’ll learn how to keep score.
 
 Thanks for watching, and we'll see you next time!
 

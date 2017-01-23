@@ -1,42 +1,52 @@
 **SLIDE 19**
 Hey, what's up everybody? This is Tammy. Welcome back to our course on, How To Make A Game Like Flappy Bird In Swift.
 
-In this video, you'll finally get to add the star of the show... Felipe! 
-
-Take a look.
+In this part of the course, you'll add the star of the show... Felipe! 
 
 
 **SLIDE 20**
+By the end of this video, your game will look like this.
 (PLAY VIDEO)
 
 
 **SLIDE 21**
-Pretty cool, huh? Want to know what's even cooler? GameplayKit, which happens to be one of my favorite frameworks.
+Pretty cool, huh? Want to know what's even cooler? GameplayKit.
 
-GameplayKit is a collection of tools, created by Apple, that help us developer build games in iOS, macOS, tvOS and even watchOS. 
+GameplayKit is a collection of tools, created by Apple, that helps developers build games in iOS, macOS, tvOS and even watchOS. These tools include Randomization, Entities and Components, State Machines, the Minmax Strategist, Pathfinding, Agents, Goals and Behaviors, and the Rule System.
 
-While this course doesn't focus on GameplayKit, it does, use a few of these technologies. The first being Entities and components, which helps keep code more organized. 
+While this course doesn't focus on GameplayKit specifically, it does use a few of these technologies. The first being Entities and components. 
+
+Entities and components help keep your code more organized by allowing you to share common code, in smaller, bite-sized pieces.
+
+Let's take a look at how we'll be using them in Flappy Flappy Felipe.
 
 
 **SLIDE 22**
 
-There are two parts to the entity-component system. They are:
+We'll start by creating an entity.
 
-Entities, which essentially represents the objects within your game. And components, which represent some aspect of an entity - like its appearance or behavior.
+Entities basically represent the objects within your game. 
+In Flappy Felipe, we’ll use a entity named PlayerEntity to represent the bird. PlayerEntity is a custom subclass of GKEntity.
 
-In Flappy Felipe, we’ll use a entity named PlayerEntity to represent the bird, which is a custom subclass of GKEntity.
+We’ll then create two components.
 
-We’ll also create two components.
+Components represent some aspect of an entity - like its appearance or behavior.
 
-The first is a visual component, which handles the onscreen visual representation of the player. The classname for this component is SpriteComponent.
+The first component we'll create is a visual component, which handles the onscreen visual representation of the player. The classname for this component is SpriteComponent.
 
-The second component is one responsible for handling the player's movement. The classname for this one is MovementComponent.
+The second component we'll create is the one responsible for handling the player's movement. The classname for this component is MovementComponent.
 
-Both of these components are subclasses of the GKComponent class, and because they are components can be reused later, with other entities.
+Both of these components are subclasses of the GKComponent class.
+
+Now what's nice about using entities and components, is that as we add more objects (or entities) to our game, we can share common components between them rather then have ginormous classes stuffed with behaviors.
+
+You'll see exactly what I mean when we start adding the obstacles to the game.
 
 
 **SLIDE 23**
-For more information about GameplayKit, please check out our GameplayKit Tutorials on the site.
+Because this course is not a GameplayKit course, we only have time to cover the basics.
+
+If you want to learn more about entities and components, I strongly suggest reading our GameplayKit Tutorials on the site.
 
 OK! It's time to jump into Xcode and get Felipe onto the stage, or more accurately - the scene!
 
@@ -44,8 +54,8 @@ OK! It's time to jump into Xcode and get Felipe onto the stage, or more accurate
 ----- DEMO GOES HERE -----
 
 
-**SLIDE 25**
-That’s it for this video, where you were learned about GameplayKit and entities and components. In the next video, you'll continue to use GameplayKit, and you'll also discover how to add obstacles to the scene.
+**SLIDE 24**
+Well, that’s it for this video, where you were learned about entities and components, and added Felipe to the scene. In the next video, you'll learn how to add obstacles to the scene.
 
 Thanks for watching, and we'll see you next time!
 

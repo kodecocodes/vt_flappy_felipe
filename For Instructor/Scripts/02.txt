@@ -1,25 +1,26 @@
 **SLIDE 9**
 Hey, what's up everybody? This is Tammy. Welcome back to our course on, How To Make A Game Like Flappy Bird In Swift.
 
+In this part of the course, you'll be creating the project and adding the background.
+
 
 **SLIDE 10**
-In this video tutorial, you'll be creating the project and adding the background. By the end of this video, you're game will look like this.
+By the end of this video, your game will look like this.
+(THERE IS NO VIDEO; IT'S JUST A STILL IMAGE)
 
 
 **SLIDE 11**
-Flappy Felipe, at least for now, is an iPhone-only game. You’ll see how to get it working on the Apple TV later, but for now, let’s concentrate on the iPhone.
+Flappy Felipe is an iPhone-only game, at least for now. Later on, you'll get it working on the Apple TV. But for now, let’s concentrate on the iPhone.
 
 And by that, I mean ALL THE iPHONES — and ALL THE SCREEN SIZES too.
 
 
 **SLIDE 12**
-Because each iPhone has a different SCREEN SIZE, you'll need a way of setting the SCENE SIZE accordingly. 
+Because each iPhone has a different SCREEN SIZE, you'll need a way to set the SCENE SIZE accordingly. 
 
-While there are a number of ways to do this, for Flappy Felipe, we’ll be using a uniform width of 320 and a dynamic height.
+While there are a number of ways to do this, for Flappy Felipe, we’ll be using a UNIFORM WIDTH of 320 and a DYNAMIC HEIGHT, which is determine based on the aspect ratio.
 
-The dynamic height is based on the aspect ratio, and the aspect ratio is used to set the height of the scene. 
-
-Once the scene size is set, you can add the background.
+Once we know the aspect ratio, we can us it to set the height of the scene. And once the scene size is set, we can add the background.
 
 
 **SLIDE 13**
@@ -32,7 +33,7 @@ That means you need a way to keep track of the important areas within the game.
 
 In this case, there are two: the playableHeight, which is essentially the fly zone; and the playableStart, which is where the ground begins. 
 
-Using these two variables - playableHeight and playableStart - you'll be able to handle the game logic and keep things fair across the differently sized devices.
+Using these two variables - playableHeight and playableStart - we'll be able to keep things fair across the differently sized devices.
 
 Let’s see how this works out in code.
 
@@ -41,7 +42,7 @@ Let’s see how this works out in code.
 
 
 **SLIDE 14**
-That’s it for this video, where you were learned how to add the background. In the next video, you’ll learn how to move the background.
+Well, that’s it for this video, where you were learned how to set up the project add the background. In the next video, you’ll learn how to move the background.
 
 Thanks for watching, and we'll see you next time!
 

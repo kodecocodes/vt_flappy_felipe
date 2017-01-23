@@ -1,46 +1,57 @@
 **SLIDE 1**
 Hey, what's up everybody? This is Tammy. Welcome to our course on, How To Make A Game Like Flappy Bird In Swift.
 
+In this course, you’ll learn how to make a game named Flappy Felipe.
+
 
 **SLIDE 2**
-In this course, you’ll learn how to make a game named Flappy Felipe. Take a look.
+By the end of this course, your game will look like this.
+
 (PLAY VIDEO)
 
-**SLIDE 3**
-If you don't know the folklore behind Flappy Felipe, it goes something like this: 
 
-Felipe Laso Marsetti, a Ray Wenderlich Founding Tutorial Team Member, had a dream about becoming a cartoon bird. 
+**SLIDE 3**
+Before we get started, I want to share with you how Flappy Felipe came to be.
+
+You see, Felipe Laso Marsetti, a Ray Wenderlich Founding Tutorial Team Member, had this dream about becoming a cartoon bird. 
 
 
 **SLIDE 4**
-One day, he mentioned his dream to Ray, which gave him an idea! Why not make a game like Flappy Bird, starring Felipe.
+One day, he mentioned this dream to Ray; which of course, gave Ray an idea! Why not create a game like Flappy Bird, and make Felipe that star of the show?
 
 
 **SLIDE 5**
-So Ray contacted Mike Berg over at weheartgames.com and asked him to create some artwork. Not too long after that, Flappy Felipe was available on the App Store! Huzzah!
+So Ray contacted Mike Berg at weheartgames.com and asked him to create the artwork. Not too long after that, Flappy Felipe was available on the App Store!
 
-Making this game is a great way to practice your SpriteKit skills and have a cool and complete game at the end to show off to your friends.
+And now you can learn how to make this game in this course.
+
 
 **SLIDE 6**
-So now that you know what you’re making, it's time to go over some of the things you need to know in order to work through this course. 
+But first, it's time to go over some of the things you need to know before you begin.
 
-For starters, you should know how to program in Swift. If you need a help with that, you can check out our Swift courses first. Alternatively, you can grab a copy of our book, the Swift Apprentice.
+For starters, you should know how to program in Swift.
 
-You should also understand the basics of SpriteKit, Apple's 2D Game Engine framework. If you're new to SpriteKit, we have a Beginning SpriteKit course available that you can watch. Alternatively, you can grab a copy of our book, 2D Apple Games by Tutorials. Beyond that, you an read our free tutorials on the site.
+If you need a little help with that, you can watch our Swift courses; or you can grab a copy of our book, the Swift Apprentice. Better yet, do both!
 
-With that out of the way, it's time to review the specifics of what this course will cover.
+You should also understand the basics of SpriteKit, Apple's 2D Game Engine framework. 
+
+If you're new to SpriteKit, we have a Beginning SpriteKit course to help you get up to speed. We also have our book, 2D Apple Games by Tutorials, as well as our free tutorials on the site.
+
 
 **SLIDE 7**
+With that out of the way, it's time to review the specifics of what this course will cover.
+
 We’ll start by creating the project and adding the background. 
 
 Then, we’ll move on to learning some of the features of GameplayKit. Specifically, Entities and Components, Randomization, and State Machines.
 
-Finally, you'll discover how to add "juice" to your game, which is a fancy way of saying “adding polish and pizazz”. We’ll conclude the course by learning how to get Flappy Felipe working on the Apple TV.
+Finally, you'll discover how to add "juice" to your game, which is a fancy way of saying “adding polish and pizazz”. And we'll conclude the course by learning how to get Flappy Felipe working on the Apple TV.
 
-As you can see, we cover a lot in this course. By the end, you'll have enough knowledge to build your own Flappy Felipe-type game.
+As you can see, we cover a lot of things in this course.
+
 
 **SLIDE 8**
-That’s it for this video, where you were introduced to the course. In the next video, you’ll learn how to add the background.
+Well that’s it for this video, where you learned about this course and what you'll be making. In the next video, you’ll learn how to set up the project and add the background.
 
 I hope you enjoyed this video. Thanks for watching, and we'll see you next time!
 
